@@ -1,0 +1,24 @@
+vaadin-checkbox.checkbox-agree::part(checkbox):after{
+    background: orange;
+}
+
+vaadin-checkbox.checkbox-agree > [slot="label"]{
+    color: dimgray;
+}
+
+vaadin-checkbox[indeterminate]::part(checkbox){
+    background: orange;
+}
+
+vaadin-checkbox-group.checkbox-employee::part(label){
+    color: darkgreen;
+}
+
+vaadin-checkbox-group.checkbox-employee vaadin-checkbox::part(checkbox){
+    background: lightskyblue;
+
+}
+
+vaadin-checkbox-group.checkbox-employee vaadin-checkbox > [slot="label"]{
+    color: darkslategray;
+}

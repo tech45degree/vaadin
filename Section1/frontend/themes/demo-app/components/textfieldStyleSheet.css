@@ -1,0 +1,41 @@
+/*.my-custom-textfield{
+    background: antiquewhite;
+    font-family: Algerian;
+    border-radius: 8px;
+    padding: 6px;
+    --vaadin-input-field-value-color: red;
+    --vaadin-focus-ring-color: green;
+    --vaadin-input-field-value-font-weight: 200;
+    --vaadin-input-field-invalid-background: blue;
+
+}*/
+
+vaadin-text-field.my-custom-textfield > [slot="label"]{
+    color: grey;
+}
+
+vaadin-text-field.my-custom-textfield::part(required-indicator):after{
+    color: red;
+}
+vaadin-text-field.my-custom-textfield::part(input-field){
+    background: lightgray;
+}
+vaadin-text-field.my-custom-textfield > [slot="input"]{
+    color: black;
+}
+
+vaadin-text-field.my-custom-textfield > [slot="helper"]{
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 8px;
+}
+
+vaadin-text-field.my-custom-textfield >  [slot="error-message"]{
+    color: red;
+    font-weight: bolder;
+    font-size: 8px;
+}
+
+vaadin-text-field.my-custom-textfield::part(clear-button){
+    color: red;
+}

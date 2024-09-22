@@ -1,0 +1,12 @@
+vaadin-menu-bar.header-menu vaadin-menu-bar-button{
+    background-color: darkslateblue;
+}
+
+vaadin-menu-bar.header-menu vaadin-menu-bar-button:hover{
+    background-color: steelblue;
+}
+
+vaadin-menu-bar.header-menu vaadin-menu-bar-item::part(content){
+    color: white;
+    font-weight: bolder;
+}

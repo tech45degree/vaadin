@@ -1,0 +1,15 @@
+.primary{
+    background: hotpink;
+    color: white;
+    border-right: 8px;
+}
+
+
+vaadin-button.primary[disabled]{
+    background: red;
+    color: dimgray;
+}
+
+vaadin-button.primary:hover{
+    background: green;
+}

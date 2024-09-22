@@ -1,0 +1,24 @@
+vaadin-upload.image-upload {
+    background: beige;
+}
+
+vaadin-upload.image-upload > [slot="add-button"]{
+    color: white;
+    background: darkolivegreen;
+}
+
+vaadin-upload.image-upload > [slot="drop-label"]{
+    color: darkslategray;
+}
+
+vaadin-upload.image-upload > [slot="drop-label-icon"]{
+    color: darkslategray;
+}
+
+vaadin-upload.image-upload vaadin-upload-file::part(remove-button){
+    color: green;
+}
+
+vaadin-upload.image-upload vaadin-upload-file::part(done-icon)::before{
+    color: green;
+}

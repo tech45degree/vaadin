@@ -1,0 +1,32 @@
+vaadin-combo-box::part(input-field){
+    background: lightgray;
+    color: navy;
+    font-weight: bolder;
+}
+vaadin-combo-box::part(clear-button){
+    color: red;
+}
+vaadin-combo-box > [slot="label"]{
+    color: darkslateblue;
+    font-weight: bolder;
+}
+
+vaadin-combo-box::part(toggle-button){
+    color: seagreen;
+}
+
+vaadin-combo-box-overlay::part(content){
+    background: lightgray;
+    color: navy;
+    font-weight: bolder;
+}
+
+vaadin-combo-box-overlay vaadin-combo-box-item:hover{
+    background: steelblue;
+    color: white;
+}
+
+vaadin-combo-box-overlay vaadin-combo-box-item::part(checkmark)::before{
+    color: seagreen;
+}
+

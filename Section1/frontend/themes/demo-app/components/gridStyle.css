@@ -1,0 +1,57 @@
+vaadin-grid.person-grid::part(even-row){
+    --vaadin-grid-cell-background: lightgray;
+    color: darkslategray;
+}
+vaadin-grid.person-grid::part(odd-row){
+    --vaadin-grid-cell-background: white;
+    color: darkslategray;
+}
+vaadin-grid.person-grid::part(first-row){
+    --vaadin-grid-cell-background: darkgray;
+    color: darkslategray;
+}
+
+vaadin-grid.person-grid::part(last-row){
+    --vaadin-grid-cell-background: darkgray;
+    color: darkslategray;
+}
+
+vaadin-grid.person-grid::part(selected-row){
+    --vaadin-grid-cell-background: seagreen;
+    color: white;
+}
+
+vaadin-grid.person-grid::part(row):hover{
+    --vaadin-grid-cell-background: steelblue;
+    color: white;
+}
+
+/*vaadin-grid.person-grid::part(last-header-row-cell){
+    color: white;
+    --vaadin-grid-cell-background: darkslateblue;
+}*/
+
+vaadin-grid.person-grid::part(footer-cell){
+    color: darkslateblue;
+}
+
+vaadin-grid.person-grid vaadin-checkbox::part(checkbox):after{
+    background: orange;
+}
+
+
+
+vaadin-grid.person-grid::part(first-column-cell){
+    --vaadin-grid-cell-background: white;
+}
+
+vaadin-grid.person-grid vaadin-grid-sorter::part(indicators){
+    color: darkslateblue;
+}
+
+vaadin-grid.person-grid::part(high-salary){
+    color: darkgreen;
+}
+vaadin-grid.person-grid::part(low-salary){
+    color: red;
+}

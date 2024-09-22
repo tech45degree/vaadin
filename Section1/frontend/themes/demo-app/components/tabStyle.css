@@ -1,0 +1,22 @@
+.my-tabsheet {
+
+    vaadin-tabs vaadin-tab {
+        color: orange;
+    }
+
+    vaadin-tabs vaadin-tab[selected] {
+        color: navy;
+    }
+
+    vaadin-tabs vaadin-tab[disabled] {
+        color: lightgray;
+    }
+
+    vaadin-tabs::part(forward-button) {
+        color: darkgreen;
+    }
+
+    vaadin-tabs::part(back-button) {
+        color: red;
+    }
+}

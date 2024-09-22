@@ -1,0 +1,27 @@
+.emp-select-overlay{
+    --vaadin-focus-ring-color: orange;
+}
+
+vaadin-select.emp-select::part(label){
+    color: navy;
+}
+
+vaadin-select.emp-select::part(input-field){
+    background: beige;
+}
+
+vaadin-select.emp-select::part(toggle-button){
+    color: orange;
+}
+
+vaadin-select-item.emp-select-overlay{
+    color: darkslategray;
+}
+
+vaadin-select-overlay.emp-select-overlay vaadin-select-item::part(checkmark):before{
+    color: orange;
+}
+
+vaadin-select-overlay.emp-select-overlay::part(overlay){
+    background: beige;
+}

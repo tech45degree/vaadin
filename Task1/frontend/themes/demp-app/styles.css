@@ -1,0 +1,17 @@
+@import "components/gridStyle.css";
+@import "components/menubarStyle.css";
+@import "components/accordionStyle.css";
+@import "components/numberfieldStyle.css";
+@import "components/inputFieldStyle.css";
+@import "components/comboBoxStyle.css";
+
+
+body{
+    background: white;
+    --vaadin-focus-ring-color: seagreen;
+}
+
+.form-layout-person{
+    padding: 10px;
+}
+

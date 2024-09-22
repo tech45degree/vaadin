@@ -1,0 +1,29 @@
+/*.price{
+    background: beige;
+    color: orange;
+    border-radius: 8px;
+    padding: 2px;
+    --vaadin-input-field-focused-label-color: red;
+    --vaadin-focus-ring-color: orange;
+    --lumo-font-family: arial;
+}*/
+vaadin-number-field.price::part(label){
+    color: green;
+}
+
+vaadin-number-field.price::part(increase-button){
+    color: green;
+}
+
+vaadin-number-field.price::part(decrease-button){
+    color: red;
+}
+
+vaadin-number-field.price > [slot="helper"]{
+    color: green;
+    font-size: 10px;
+}
+
+vaadin-number-field.price > [slot="error-message"]{
+    color: brown;
+}

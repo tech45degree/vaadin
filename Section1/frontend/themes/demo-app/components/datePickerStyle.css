@@ -1,0 +1,22 @@
+vaadin-date-picker.dob-datepicker > [slot="label"]{
+    color: darkgreen;
+}
+
+vaadin-date-picker.dob-datepicker::part(input-field){
+    background: beige;
+}
+
+vaadin-date-picker.dob-datepicker::part(toggle-button){
+    color: blueviolet;
+}
+
+vaadin-date-picker-overlay.dob-datepicker-overlay vaadin-date-picker-overlay-content{
+    background: beige;
+    color: darkgreen;
+}
+vaadin-date-picker-overlay.dob-datepicker-overlay vaadin-date-picker-overlay-content > [slot="today-button"]{
+    color: orange;
+}
+vaadin-date-picker-overlay.dob-datepicker-overlay vaadin-date-picker-overlay-content vaadin-month-calendar{
+    color: darkgreen;
+}

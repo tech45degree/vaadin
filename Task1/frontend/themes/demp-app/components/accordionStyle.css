@@ -1,0 +1,19 @@
+vaadin-accordion.link-accordion vaadin-accordion-heading{
+    color: steelblue;
+}
+vaadin-accordion.link-accordion vaadin-accordion-heading::part(toggle){
+    color: steelblue;
+}
+
+vaadin-accordion.link-accordion vaadin-accordion-heading[opened]{
+    color: seagreen;
+}
+
+vaadin-accordion.link-accordion  vaadin-accordion-heading[opened]::part(toggle){
+    color: seagreen;
+}
+
+vaadin-accordion.link-accordion vaadin-accordion-panel::part(content){
+    border-radius: 8px;
+    padding: 6px;
+}

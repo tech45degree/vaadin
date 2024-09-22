@@ -1,0 +1,7 @@
+vaadin-message-list vaadin-message.msg1::part(content){
+    color: navy;
+}
+
+vaadin-message.msg1::part(time){
+    color: green;
+}

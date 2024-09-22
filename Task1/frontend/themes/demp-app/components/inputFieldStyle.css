@@ -1,0 +1,38 @@
+vaadin-text-field::part(input-field){
+    background: lightgray;
+    color: navy;
+    font-weight: bolder;
+}
+vaadin-text-field::part(clear-button){
+    color: red;
+}
+vaadin-text-field > [slot="label"]{
+    color: darkslateblue;
+    font-weight: bolder;
+}
+
+vaadin-email-field::part(input-field){
+    background: lightgray;
+    color: navy;
+    font-weight: bolder;
+}
+vaadin-email-field::part(clear-button){
+    color: red;
+}
+vaadin-email-field > [slot="label"]{
+    color: darkslateblue;
+    font-weight: bolder;
+}
+
+vaadin-number-field::part(input-field){
+    background: lightgray;
+    color: navy;
+    font-weight: bolder;
+}
+vaadin-number-field::part(clear-button){
+    color: red;
+}
+vaadin-number-field > [slot="label"]{
+    color: darkslateblue;
+    font-weight: bolder;
+}

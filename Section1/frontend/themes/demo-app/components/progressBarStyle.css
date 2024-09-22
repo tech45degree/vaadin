@@ -1,0 +1,7 @@
+vaadin-progress-bar::part(value){
+    background: orange;
+}
+
+vaadin-progress-bar::part(bar){
+    background: beige;
+}

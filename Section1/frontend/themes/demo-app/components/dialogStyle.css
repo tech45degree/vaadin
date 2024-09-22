@@ -1,0 +1,39 @@
+vaadin-dialog-overlay::part(overlay) {
+    background: beige;
+}
+vaadin-dialog-overlay::part(header) {
+    background: beige;
+}
+
+vaadin-dialog-overlay>[slot="title"]{
+    color: red !important;
+}
+
+vaadin-dialog-overlay::part(footer) {
+    background: darkseagreen;
+}
+
+
+vaadin-confirm-dialog-overlay::part(overlay) {
+    background: beige;
+}
+vaadin-confirm-dialog-overlay::part(header) {
+    background: beige;
+}
+
+vaadin-confirm-dialog-overlay>[slot="header"]{
+    color: orange;
+}
+
+vaadin-confirm-dialog-overlay::part(footer) {
+    background: darkseagreen;
+}
+
+vaadin-confirm-dialog-overlay>[slot="cancel-button"]{
+    color: darkslategray;
+}
+vaadin-confirm-dialog-overlay>[slot="reject-button"]{
+    color: darkslategray;
+}
+
+

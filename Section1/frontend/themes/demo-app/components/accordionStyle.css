@@ -1,0 +1,13 @@
+vaadin-accordion.personal-accordion   vaadin-accordion-heading[opened]{
+    color: orange;
+}
+
+vaadin-accordion.personal-accordion vaadin-accordion-heading[]::part(toggle){
+    color: orange;
+}
+
+vaadin-accordion.personal-accordion vaadin-accordion-panel::part(content){
+    background-color: beige;
+    border-radius: 8px;
+    padding: 6px;
+}

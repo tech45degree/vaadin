@@ -1,0 +1,16 @@
+vaadin-list-box.listbox-name{
+    background: beige;
+    border-radius: 8px;
+}
+
+vaadin-list-box.listbox-name vaadin-item{
+    color: darkslategray;
+}
+
+vaadin-list-box.listbox-name vaadin-item::part(checkmark):before{
+    color: darkgreen;
+}
+
+vaadin-list-box.listbox-name vaadin-item[disabled]{
+    color: red;
+}

@@ -1,0 +1,7 @@
+.flPrimary{
+    background: beige;
+}
+
+vaadin-form-layout[disabled]{
+    background: red;
+}

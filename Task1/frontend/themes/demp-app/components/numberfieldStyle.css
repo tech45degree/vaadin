@@ -1,0 +1,7 @@
+vaadin-number-field.number-age::part(increase-button){
+    color: green;
+}
+
+vaadin-number-field.number-age::part(decrease-button){
+    color: red;
+}

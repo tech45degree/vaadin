@@ -1,0 +1,15 @@
+vaadin-radio-group.radio-permission vaadin-radio-button > [slot="label"]{
+    color: darkslategray;
+}
+
+vaadin-radio-group.radio-permission::part(label){
+    color: darkgreen;
+}
+
+vaadin-radio-group.radio-permission > [slot="helper"]{
+    color: red;
+}
+
+vaadin-radio-group.radio-permission vaadin-radio-button[checked]::part(radio){
+    background: orange;
+}

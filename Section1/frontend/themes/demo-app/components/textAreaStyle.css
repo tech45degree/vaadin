@@ -1,0 +1,23 @@
+vaadin-text-area{
+    color: darkslategray;
+}
+
+vaadin-text-area::part(input-field){
+    background: beige;
+}
+
+vaadin-text-area > [slot="label"]{
+    color: navy;
+}
+
+vaadin-text-area > [slot="helper"]{
+    color: darkslategray;
+}
+
+vaadin-text-area > [slot="error-message"]{
+    color: red;
+}
+
+vaadin-text-area::part(clear-button){
+    color: red;
+}

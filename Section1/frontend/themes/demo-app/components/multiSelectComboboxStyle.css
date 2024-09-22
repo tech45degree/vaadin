@@ -1,0 +1,35 @@
+vaadin-multi-select-combo-box > [slot="label"]{
+    color: navy;
+}
+
+vaadin-multi-select-combo-box::part(input-field){
+    background: beige;
+}
+
+vaadin-multi-select-combo-box::part(toggle-button){
+    color: orange;
+}
+
+vaadin-multi-select-combo-box::part(clear-button){
+    color: red;
+}
+
+vaadin-multi-select-combo-box-chip{
+    background: darkgreen;
+}
+vaadin-multi-select-combo-box-chip::part(label){
+    color: white;
+}
+
+vaadin-multi-select-combo-box-chip::part(remove-button){
+    color: white;
+}
+
+vaadin-multi-select-combo-box-overlay::part(content){
+    background: beige;
+    color: darkslategray;
+}
+
+vaadin-multi-select-combo-box-overlay vaadin-multi-select-combo-box-item::part(checkmark):before{
+    color: darkgreen;
+}

@@ -1,0 +1,29 @@
+vaadin-menu-bar.my-menu vaadin-menu-bar-button{
+    background-color: beige;
+}
+vaadin-menu-bar.my-menu vaadin-menu-bar-button[disabled]{
+    background-color: lightgray;
+}
+vaadin-menu-bar.my-menu vaadin-menu-bar-item::part(content){
+    color: darkslategray;
+}
+
+vaadin-menu-bar-overlay.my-menu-overlay vaadin-menu-bar-item[disabled]{
+    background-color: lightgray;
+}
+
+vaadin-menu-bar-overlay.my-menu-overlay::part(overlay){
+    background-color: beige;
+}
+
+/*vaadin-menu-bar-overlay.my-menu-overlay vaadin-menu-bar-item{
+    background-color: orange;
+}*/
+
+vaadin-menu-bar-overlay.my-menu-overlay vaadin-menu-bar-item::part(content){
+    color: darkslategray;
+}
+
+vaadin-menu-bar-overlay.my-menu-overlay vaadin-menu-bar-item::part(checkmark):before{
+    color: darkgreen;
+}
