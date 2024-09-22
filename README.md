@@ -4,13 +4,13 @@ This repository contains the source code, examples, and exercises from the Udemy
 
 ## Key Topics Covered:
 
-    Introduction to Vaadin and its ecosystem
-    Setting up a Vaadin project in a Java environment
-    Creating dynamic and responsive UI components
-    Data binding, event handling, and state management in Vaadin
-    Integration with databases and backend services
-    Advanced topics like routing, theming, and security
-    Deployment of Vaadin applications
+Introduction to Vaadin and its ecosystem
+Setting up a Vaadin project in a Java environment
+Creating dynamic and responsive UI components
+Data binding, event handling, and state management in Vaadin
+Integration with databases and backend services
+Advanced topics like routing, theming, and security
+Deployment of Vaadin applications
 
 ## Repository Content:
 
