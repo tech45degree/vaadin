@@ -1,6 +1,6 @@
-# Mastering Vaadin: Build Modern Web Applications with Java
+# Mastering Vaadin: Build Modern Web Applications with Java and AI
 
-This repository contains the source code, examples, and exercises from the Udemy course "Mastering Vaadin: Build Modern Web Applications with Java." The course provides in-depth knowledge on developing modern, responsive web applications using Vaadin, a Java framework for building user interfaces with ease.
+This repository contains the source code, examples, and exercises from the Udemy course "Vaadin 24+ & LLM for Developers: Build Next-Gen AI Web Apps" The course provides in-depth knowledge on developing modern, responsive web applications using Vaadin, a Java framework for building user interfaces with ease.
 
 ## Key Topics Covered:
 
@@ -11,6 +11,7 @@ This repository contains the source code, examples, and exercises from the Udemy
     Integration with databases and backend services
     Advanced topics like routing, theming, and security
     Deployment of Vaadin applications
+    Build next gen AI web application with LLM and Vaadin using Spring AI
 
 ## Repository Content:
 
