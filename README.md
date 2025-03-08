@@ -1,4 +1,4 @@
-# Mastering Vaadin: Build Modern Web Applications with Java and AI
+# Vaadin & LLM for Developers: Build Next-Gen AI Web Apps
 
 This repository contains the source code, examples, and exercises from the Udemy course "Vaadin 24+ & LLM for Developers: Build Next-Gen AI Web Apps" The course provides in-depth knowledge on developing modern, responsive web applications using Vaadin, a Java framework for building user interfaces with ease.
 
